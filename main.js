@@ -6,6 +6,7 @@ open_link.addEventListener('click',
 
     function()
     {
+        // hamburger.style.display = "block";
         hamburger.classList.add("active");
     }
 );
@@ -14,6 +15,7 @@ close_link.addEventListener('click',
 
     function()
     {
+        // hamburger.style.display = "none";
         hamburger.classList.remove("active");
     }
 );
